@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     int second;
     
-    printf("Input two seconds : ");
+    printf("Input seconds : ");
     scanf("%i" , &second);
   
     printf("The time is : %i:%i\n", second/60, second%60);
